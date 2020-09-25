@@ -1,0 +1,399 @@
+2020-09-25 19:07:04:811 [Appium] Welcome to Appium v1.18.2
+2020-09-25 19:07:04:813 [Appium] Non-default server args:
+2020-09-25 19:07:04:815 [Appium]   port: 4724
+2020-09-25 19:07:04:815 [Appium]   sessionOverride: true
+2020-09-25 19:07:04:815 [Appium]   logFile: C:\Tools\selenium\ce0417144bd734ff0c\logs\appium.log
+2020-09-25 19:07:04:816 [Appium]   logTimestamp: true
+2020-09-25 19:07:04:816 [Appium]   localTimezone: true
+2020-09-25 19:07:04:816 [Appium]   suppressKillServer: true
+2020-09-25 19:07:04:817 [Appium]   udid: ce0417144bd734ff0c
+2020-09-25 19:07:04:817 [Appium] Deprecated server args:
+2020-09-25 19:07:04:818 [Appium]   -U,--udid => --default-capabilities '{"udid":"ce0417144bd734ff0c"}'
+2020-09-25 19:07:04:819 [Appium] Default capabilities, which will be added to each request unless overridden by desired capabilities:
+2020-09-25 19:07:04:820 [Appium]   udid: ce0417144bd734ff0c
+2020-09-25 19:07:04:868 [Appium] Appium REST http interface listener started on 0.0.0.0:4724
+2020-09-25 19:07:23:892 [HTTP] --> POST /wd/hub/session
+2020-09-25 19:07:23:895 [HTTP] {"desiredCapabilities":{"udid":"ce0417144bd734ff0c","automationName":"UiAutomator2","newCommandTimeout":120000,"app":"C://Projects//SGE//PingID.apk","fullReset":true,"noReset":false,"clearSystemFiles":true,"adbExecTimeout":120000,"uiautomator2ServerInstallTimeout":120000,"appWaitForLaunch":true,"skipServerInstallation":false,"uiautomator2ServerLaunchTimeout":120000,"androidUninstallTimeout":120000,"androidInstallTimeout":120000,"platformName":"Android","appActivity":"com.accells.access.AppMgr"},"capabilities":{"firstMatch":[{"platformName":"Android"}]}}
+2020-09-25 19:07:23:903 [W3C] Calling AppiumDriver.createSession() with args: [{"udid":"ce0417144bd734ff0c","automationName":"UiAutomator2","newCommandTimeout":120000,"app":"C://Projects//SGE//PingID.apk","fullReset":true,"noReset":false,"clearSystemFiles":true,"adbExecTimeout":120000,"uiautomator2ServerInstallTimeout":120000,"appWaitForLaunch":true,"skipServerInstallation":false,"uiautomator2ServerLaunchTimeout":120000,"androidUninstallTimeout":120000,"androidInstallTimeout":120000,"platformName":"Android","appActivity":"com.accells.access.AppMgr"},null,{"firstMatch":[{"platformName":"Android"}]}]
+2020-09-25 19:07:23:905 [BaseDriver] Event 'newSessionRequested' logged at 1601024843904 (19:07:23 GMT+1000 (Australian Eastern Standard Time))
+2020-09-25 19:07:23:913 [BaseDriver] The following capabilities are not standard capabilities and should have an extension prefix:
+2020-09-25 19:07:23:914 [BaseDriver]   udid
+2020-09-25 19:07:23:920 [Appium] The following capabilities were provided in the JSONWP desired capabilities that are missing in W3C capabilities: ["automationName","newCommandTimeout","app","fullReset","noReset","clearSystemFiles","adbExecTimeout","uiautomator2ServerInstallTimeout","appWaitForLaunch","skipServerInstallation","uiautomator2ServerLaunchTimeout","androidUninstallTimeout","androidInstallTimeout","appActivity"]
+2020-09-25 19:07:23:921 [Appium] Trying to fix W3C capabilities by merging them with JSONWP caps
+2020-09-25 19:07:23:923 [BaseDriver] The following capabilities are not standard capabilities and should have an extension prefix:
+2020-09-25 19:07:23:923 [BaseDriver]   automationName
+2020-09-25 19:07:23:924 [BaseDriver]   newCommandTimeout
+2020-09-25 19:07:23:925 [BaseDriver]   app
+2020-09-25 19:07:23:926 [BaseDriver]   fullReset
+2020-09-25 19:07:23:926 [BaseDriver]   noReset
+2020-09-25 19:07:23:927 [BaseDriver]   clearSystemFiles
+2020-09-25 19:07:23:928 [BaseDriver]   adbExecTimeout
+2020-09-25 19:07:23:928 [BaseDriver]   uiautomator2ServerInstallTimeout
+2020-09-25 19:07:23:929 [BaseDriver]   appWaitForLaunch
+2020-09-25 19:07:23:930 [BaseDriver]   skipServerInstallation
+2020-09-25 19:07:23:930 [BaseDriver]   uiautomator2ServerLaunchTimeout
+2020-09-25 19:07:23:934 [BaseDriver]   androidUninstallTimeout
+2020-09-25 19:07:23:935 [BaseDriver]   androidInstallTimeout
+2020-09-25 19:07:23:936 [BaseDriver]   appActivity
+2020-09-25 19:07:23:936 [BaseDriver]   udid
+2020-09-25 19:07:24:725 [Appium] Appium v1.18.2 creating new AndroidUiautomator2Driver (v1.56.1) session
+2020-09-25 19:07:24:726 [Appium] There are no active sessions for cleanup
+2020-09-25 19:07:24:730 [BaseDriver] W3C capabilities and MJSONWP desired capabilities were provided
+2020-09-25 19:07:24:730 [BaseDriver] Creating session with W3C capabilities: {
+2020-09-25 19:07:24:731 [BaseDriver]   "alwaysMatch": {
+2020-09-25 19:07:24:731 [BaseDriver]     "appium:automationName": "UiAutomator2",
+2020-09-25 19:07:24:732 [BaseDriver]     "appium:newCommandTimeout": 120000,
+2020-09-25 19:07:24:732 [BaseDriver]     "appium:app": "C://Projects//SGE//PingID.apk",
+2020-09-25 19:07:24:733 [BaseDriver]     "appium:fullReset": true,
+2020-09-25 19:07:24:733 [BaseDriver]     "appium:noReset": false,
+2020-09-25 19:07:24:734 [BaseDriver]     "appium:clearSystemFiles": true,
+2020-09-25 19:07:24:735 [BaseDriver]     "appium:adbExecTimeout": 120000,
+2020-09-25 19:07:24:735 [BaseDriver]     "appium:uiautomator2ServerInstallTimeout": 120000,
+2020-09-25 19:07:24:736 [BaseDriver]     "appium:appWaitForLaunch": true,
+2020-09-25 19:07:24:736 [BaseDriver]     "appium:skipServerInstallation": false,
+2020-09-25 19:07:24:737 [BaseDriver]     "appium:uiautomator2ServerLaunchTimeout": 120000,
+2020-09-25 19:07:24:737 [BaseDriver]     "appium:androidUninstallTimeout": 120000,
+2020-09-25 19:07:24:738 [BaseDriver]     "appium:androidInstallTimeout": 120000,
+2020-09-25 19:07:24:738 [BaseDriver]     "appium:appActivity": "com.accells.access.AppMgr",
+2020-09-25 19:07:24:739 [BaseDriver]     "platformName": "Android",
+2020-09-25 19:07:24:740 [BaseDriver]     "appium:udid": "ce0417144bd734ff0c"
+2020-09-25 19:07:24:740 [BaseDriver]   },
+2020-09-25 19:07:24:740 [BaseDriver]   "firstMatch": [
+2020-09-25 19:07:24:741 [BaseDriver]     {}
+2020-09-25 19:07:24:741 [BaseDriver]   ]
+2020-09-25 19:07:24:741 [BaseDriver] }
+2020-09-25 19:07:24:749 [BaseDriver] The following capabilities were provided, but are not recognized by Appium:
+2020-09-25 19:07:24:749 [BaseDriver]   androidUninstallTimeout
+2020-09-25 19:07:24:750 [BaseDriver] Session created with session id: 2bf146c1-c85e-4031-949c-678b1e9fab5a
+2020-09-25 19:07:24:754 [BaseDriver] Using local app 'C://Projects//SGE//PingID.apk'
+2020-09-25 19:07:24:755 [UiAutomator2] Checking whether app is actually present
+2020-09-25 19:07:24:770 [ADB] Found 1 'build-tools' folders under 'C:\Tools\Android_SDK\SDK' (newest first):
+2020-09-25 19:07:24:771 [ADB]     C:/Tools/Android_SDK/SDK/build-tools/28.0.3
+2020-09-25 19:07:24:773 [ADB] Using 'adb.exe' from 'C:\Tools\Android_SDK\SDK\platform-tools\adb.exe'
+2020-09-25 19:07:24:774 [ADB] Running 'C:\Tools\Android_SDK\SDK\platform-tools\adb.exe -P 5037 start-server'
+2020-09-25 19:07:25:000 [AndroidDriver] Retrieving device list
+2020-09-25 19:07:25:003 [ADB] Trying to find a connected android device
+2020-09-25 19:07:25:004 [ADB] Getting connected devices
+2020-09-25 19:07:25:212 [ADB] Connected devices: [{"udid":"ce0318237dcfac000c","state":"device"},{"udid":"ce0417144bd734ff0c","state":"device"}]
+2020-09-25 19:07:25:215 [AndroidDriver] Using device: ce0417144bd734ff0c
+2020-09-25 19:07:25:217 [ADB] Using 'adb.exe' from 'C:\Tools\Android_SDK\SDK\platform-tools\adb.exe'
+2020-09-25 19:07:25:218 [ADB] Running 'C:\Tools\Android_SDK\SDK\platform-tools\adb.exe -P 5037 start-server'
+2020-09-25 19:07:25:419 [ADB] Setting device id to ce0417144bd734ff0c
+2020-09-25 19:07:25:422 [ADB] Running 'C:\Tools\Android_SDK\SDK\platform-tools\adb.exe -P 5037 -s ce0417144bd734ff0c shell getprop ro.build.version.sdk'
+2020-09-25 19:07:25:701 [ADB] Current device property 'ro.build.version.sdk': 28
+2020-09-25 19:07:25:704 [ADB] Getting device platform version
+2020-09-25 19:07:25:709 [ADB] Running 'C:\Tools\Android_SDK\SDK\platform-tools\adb.exe -P 5037 -s ce0417144bd734ff0c shell getprop ro.build.version.release'
+2020-09-25 19:07:25:981 [ADB] Current device property 'ro.build.version.release': 9
+2020-09-25 19:07:25:984 [ADB] Device API level: 28
+2020-09-25 19:07:25:984 [UiAutomator2] Relaxing hidden api policy
+2020-09-25 19:07:25:987 [ADB] Running 'C:\Tools\Android_SDK\SDK\platform-tools\adb.exe -P 5037 -s ce0417144bd734ff0c shell 'settings put global hidden_api_policy_pre_p_apps 1;settings put global hidden_api_policy_p_apps 1;settings put global hidden_api_policy 1''
+2020-09-25 19:07:26:440 [AndroidDriver] Parsing package and activity from app manifest
+2020-09-25 19:07:26:500 [ADB] Package name: 'prod.com.pingidentity.pingid'
+2020-09-25 19:07:26:501 [ADB] Main activity name: 'com.accells.access.AppMgr'
+2020-09-25 19:07:26:504 [AndroidDriver] Parsed package and activity are: prod.com.pingidentity.pingid/com.accells.access.AppMgr
+2020-09-25 19:07:26:506 [ADB] Running 'C:\Tools\Android_SDK\SDK\platform-tools\adb.exe -P 5037 -s ce0417144bd734ff0c wait-for-device'
+2020-09-25 19:07:26:717 [ADB] Running 'C:\Tools\Android_SDK\SDK\platform-tools\adb.exe -P 5037 -s ce0417144bd734ff0c shell echo ping'
+2020-09-25 19:07:26:962 [AndroidDriver] Pushing settings apk to device...
+2020-09-25 19:07:26:966 [ADB] Getting install status for io.appium.settings
+2020-09-25 19:07:26:967 [ADB] Running 'C:\Tools\Android_SDK\SDK\platform-tools\adb.exe -P 5037 -s ce0417144bd734ff0c shell dumpsys package io.appium.settings'
+2020-09-25 19:07:27:269 [ADB] 'io.appium.settings' is installed
+2020-09-25 19:07:27:274 [ADB] Getting package info for 'io.appium.settings'
+2020-09-25 19:07:27:277 [ADB] Running 'C:\Tools\Android_SDK\SDK\platform-tools\adb.exe -P 5037 -s ce0417144bd734ff0c shell dumpsys package io.appium.settings'
+2020-09-25 19:07:27:594 [ADB] The version name of the installed 'io.appium.settings' is greater or equal to the application version name ('3.2.0' >= '3.2.0')
+2020-09-25 19:07:27:597 [ADB] There is no need to install/upgrade 'C:\Users\tangw\AppData\Roaming\npm\node_modules\appium\node_modules\io.appium.settings\apks\settings_apk-debug.apk'
+2020-09-25 19:07:27:598 [ADB] Getting IDs of all 'io.appium.settings' processes
+2020-09-25 19:07:27:600 [ADB] Running 'C:\Tools\Android_SDK\SDK\platform-tools\adb.exe -P 5037 -s ce0417144bd734ff0c shell 'pgrep --help; echo $?''
+2020-09-25 19:07:27:956 [ADB] Running 'C:\Tools\Android_SDK\SDK\platform-tools\adb.exe -P 5037 -s ce0417144bd734ff0c shell pgrep -f io\\.appium\\.settings'
+2020-09-25 19:07:28:272 [AndroidDriver] io.appium.settings is already running. There is no need to reset its permissions.
+2020-09-25 19:07:28:276 [ADB] Running 'C:\Tools\Android_SDK\SDK\platform-tools\adb.exe -P 5037 -s ce0417144bd734ff0c shell appops set io.appium.settings android\:mock_location allow'
+2020-09-25 19:07:28:628 [Logcat] Starting logs capture with command: C:\\Tools\\Android_SDK\\SDK\\platform-tools\\adb.exe -P 5037 -s ce0417144bd734ff0c logcat -v threadtime
+2020-09-25 19:07:29:328 [UiAutomator2] Forwarding UiAutomator2 Server port 6790 to 8200
+2020-09-25 19:07:29:329 [ADB] Forwarding system: 8200 to device: 6790
+2020-09-25 19:07:29:332 [ADB] Running 'C:\Tools\Android_SDK\SDK\platform-tools\adb.exe -P 5037 -s ce0417144bd734ff0c forward tcp\:8200 tcp\:6790'
+2020-09-25 19:07:29:618 [ADB] Getting install status for io.appium.uiautomator2.server
+2020-09-25 19:07:29:622 [ADB] Running 'C:\Tools\Android_SDK\SDK\platform-tools\adb.exe -P 5037 -s ce0417144bd734ff0c shell dumpsys package io.appium.uiautomator2.server'
+2020-09-25 19:07:29:955 [ADB] 'io.appium.uiautomator2.server' is installed
+2020-09-25 19:07:29:957 [ADB] Getting package info for 'io.appium.uiautomator2.server'
+2020-09-25 19:07:29:960 [ADB] Running 'C:\Tools\Android_SDK\SDK\platform-tools\adb.exe -P 5037 -s ce0417144bd734ff0c shell dumpsys package io.appium.uiautomator2.server'
+2020-09-25 19:07:30:277 [ADB] The version name of the installed 'io.appium.uiautomator2.server' is greater or equal to the application version name ('4.12.2' >= '4.12.2')
+2020-09-25 19:07:30:278 [UiAutomator2] io.appium.uiautomator2.server installation state: sameVersionInstalled
+2020-09-25 19:07:30:282 [ADB] Checking app cert for C:\Users\tangw\AppData\Roaming\npm\node_modules\appium\node_modules\appium-uiautomator2-server\apks\appium-uiautomator2-server-v4.12.2.apk
+2020-09-25 19:07:30:284 [ADB] Using 'apksigner.jar' from 'C:\Tools\Android_SDK\SDK\build-tools\28.0.3\lib\apksigner.jar'
+2020-09-25 19:07:30:288 [ADB] Starting apksigner: 'C:\\Program Files (x86)\\Java\\jdk1.8.0_261\\bin\\java.exe' -Xmx1024M -Xss1m -jar C:\\Tools\\Android_SDK\\SDK\\build-tools\\28.0.3\\lib\\apksigner.jar verify --print-certs C:\\Users\\tangw\\AppData\\Roaming\\npm\\node_modules\\appium\\node_modules\\appium-uiautomator2-server\\apks\\appium-uiautomator2-server-v4.12.2.apk
+2020-09-25 19:07:31:155 [ADB] apksigner stdout: Signer #1 certificate DN: EMAILADDRESS=android@android.com, CN=Android, OU=Android, O=Android, L=Mountain View, ST=California, C=US
+2020-09-25 19:07:31:156 [ADB] Signer #1 certificate SHA-256 digest: a40da80a59d170caa950cf15c18c454d47a39b26989d8b640ecd745ba71bf5dc
+2020-09-25 19:07:31:157 [ADB] Signer #1 certificate SHA-1 digest: 61ed377e85d386a8dfee6b864bd85b0bfaa5af81
+2020-09-25 19:07:31:160 [ADB] Signer #1 certificate MD5 digest: e89b158e4bcf988ebd09eb83f5378e87
+2020-09-25 19:07:31:161 [ADB] 
+2020-09-25 19:07:31:162 [ADB] apksigner stderr: Picked up JAVA_TOOL_OPTIONS: -agentlib:jvmhook
+2020-09-25 19:07:31:163 [ADB] Picked up _JAVA_OPTIONS: -Xrunjvmhook -Xbootclasspath/a:"C:\Program Files (x86)\Micro Focus\LeanFT\bin\java_shared\classes";"C:\Program Files (x86)\Micro Focus\LeanFT\bin\java_shared\classes\jasmine.jar"
+2020-09-25 19:07:31:163 [ADB] 
+2020-09-25 19:07:31:165 [ADB] 'C:\Users\tangw\AppData\Roaming\npm\node_modules\appium\node_modules\appium-uiautomator2-server\apks\appium-uiautomator2-server-v4.12.2.apk' is signed with the default certificate
+2020-09-25 19:07:31:166 [ADB] Getting install status for io.appium.uiautomator2.server.test
+2020-09-25 19:07:31:168 [ADB] Running 'C:\Tools\Android_SDK\SDK\platform-tools\adb.exe -P 5037 -s ce0417144bd734ff0c shell dumpsys package io.appium.uiautomator2.server.test'
+2020-09-25 19:07:31:497 [ADB] 'io.appium.uiautomator2.server.test' is installed
+2020-09-25 19:07:31:500 [ADB] Checking app cert for C:\Users\tangw\AppData\Roaming\npm\node_modules\appium\node_modules\appium-uiautomator2-server\apks\appium-uiautomator2-server-debug-androidTest.apk
+2020-09-25 19:07:31:503 [ADB] Starting apksigner: 'C:\\Program Files (x86)\\Java\\jdk1.8.0_261\\bin\\java.exe' -Xmx1024M -Xss1m -jar C:\\Tools\\Android_SDK\\SDK\\build-tools\\28.0.3\\lib\\apksigner.jar verify --print-certs C:\\Users\\tangw\\AppData\\Roaming\\npm\\node_modules\\appium\\node_modules\\appium-uiautomator2-server\\apks\\appium-uiautomator2-server-debug-androidTest.apk
+2020-09-25 19:07:32:200 [ADB] apksigner stdout: Signer #1 certificate DN: EMAILADDRESS=android@android.com, CN=Android, OU=Android, O=Android, L=Mountain View, ST=California, C=US
+2020-09-25 19:07:32:204 [ADB] Signer #1 certificate SHA-256 digest: a40da80a59d170caa950cf15c18c454d47a39b26989d8b640ecd745ba71bf5dc
+2020-09-25 19:07:32:205 [ADB] Signer #1 certificate SHA-1 digest: 61ed377e85d386a8dfee6b864bd85b0bfaa5af81
+2020-09-25 19:07:32:206 [ADB] Signer #1 certificate MD5 digest: e89b158e4bcf988ebd09eb83f5378e87
+2020-09-25 19:07:32:207 [ADB] 
+2020-09-25 19:07:32:208 [ADB] apksigner stderr: Picked up JAVA_TOOL_OPTIONS: -agentlib:jvmhook
+2020-09-25 19:07:32:210 [ADB] Picked up _JAVA_OPTIONS: -Xrunjvmhook -Xbootclasspath/a:"C:\Program Files (x86)\Micro Focus\LeanFT\bin\java_shared\classes";"C:\Program Files (x86)\Micro Focus\LeanFT\bin\java_shared\classes\jasmine.jar"
+2020-09-25 19:07:32:211 [ADB] 
+2020-09-25 19:07:32:214 [ADB] 'C:\Users\tangw\AppData\Roaming\npm\node_modules\appium\node_modules\appium-uiautomator2-server\apks\appium-uiautomator2-server-debug-androidTest.apk' is signed with the default certificate
+2020-09-25 19:07:32:215 [UiAutomator2] Server packages are not going to be (re)installed
+2020-09-25 19:07:32:221 [UiAutomator2] Waiting up to 30000ms for services to be available
+2020-09-25 19:07:32:224 [ADB] Running 'C:\Tools\Android_SDK\SDK\platform-tools\adb.exe -P 5037 -s ce0417144bd734ff0c shell pm list instrumentation'
+2020-09-25 19:07:32:609 [UiAutomator2] Instrumentation target 'io.appium.uiautomator2.server.test/androidx.test.runner.AndroidJUnitRunner' is available
+2020-09-25 19:07:32:611 [ADB] Checking app cert for C://Projects//SGE//PingID.apk
+2020-09-25 19:07:32:614 [ADB] Starting apksigner: 'C:\\Program Files (x86)\\Java\\jdk1.8.0_261\\bin\\java.exe' -Xmx1024M -Xss1m -jar C:\\Tools\\Android_SDK\\SDK\\build-tools\\28.0.3\\lib\\apksigner.jar verify --print-certs C\://Projects//SGE//PingID.apk
+2020-09-25 19:07:33:791 [ADB] apksigner stdout: Signer #1 certificate DN: O=Ping Identity Corporation, L=Denver, ST=Colorado
+2020-09-25 19:07:33:794 [ADB] Signer #1 certificate SHA-256 digest: 1d287f686ce73f1879e65e7f3043589603589f0b96666944fb8b580b33fb698d
+2020-09-25 19:07:33:795 [ADB] Signer #1 certificate SHA-1 digest: a96864718d697a6ee4c89c12aa7556ae1ab0e7a0
+2020-09-25 19:07:33:797 [ADB] Signer #1 certificate MD5 digest: 7415aedd5897b589db089c8b2d002909
+2020-09-25 19:07:33:798 [ADB] 
+2020-09-25 19:07:33:799 [ADB] apksigner stderr: Picked up JAVA_TOOL_OPTIONS: -agentlib:jvmhook
+2020-09-25 19:07:33:801 [ADB] Picked up _JAVA_OPTIONS: -Xrunjvmhook -Xbootclasspath/a:"C:\Program Files (x86)\Micro Focus\LeanFT\bin\java_shared\classes";"C:\Program Files (x86)\Micro Focus\LeanFT\bin\java_shared\classes\jasmine.jar"
+2020-09-25 19:07:33:804 [ADB] 
+2020-09-25 19:07:33:805 [ADB] 'C://Projects//SGE//PingID.apk' is signed with a non-default certificate
+2020-09-25 19:07:33:806 [ADB] Uninstalling prod.com.pingidentity.pingid
+2020-09-25 19:07:33:807 [ADB] Getting install status for prod.com.pingidentity.pingid
+2020-09-25 19:07:33:811 [ADB] Running 'C:\Tools\Android_SDK\SDK\platform-tools\adb.exe -P 5037 -s ce0417144bd734ff0c shell dumpsys package prod.com.pingidentity.pingid'
+2020-09-25 19:07:34:649 [ADB] 'prod.com.pingidentity.pingid' is not installed
+2020-09-25 19:07:34:650 [ADB] prod.com.pingidentity.pingid was not uninstalled, because it was not present on the device
+2020-09-25 19:07:34:660 [ADB] Getting install status for prod.com.pingidentity.pingid
+2020-09-25 19:07:34:663 [ADB] Running 'C:\Tools\Android_SDK\SDK\platform-tools\adb.exe -P 5037 -s ce0417144bd734ff0c shell dumpsys package prod.com.pingidentity.pingid'
+2020-09-25 19:07:35:081 [ADB] 'prod.com.pingidentity.pingid' is not installed
+2020-09-25 19:07:35:086 [AndroidDriver] Running full reset on 'prod.com.pingidentity.pingid' (reinstall)
+2020-09-25 19:07:35:095 [ADB] Running 'C:\Tools\Android_SDK\SDK\platform-tools\adb.exe -P 5037 -s ce0417144bd734ff0c help'
+2020-09-25 19:07:35:373 [ADB] Running 'C:\Tools\Android_SDK\SDK\platform-tools\adb.exe -P 5037 -s ce0417144bd734ff0c features'
+2020-09-25 19:07:35:638 [ADB] The application at 'C://Projects//SGE//PingID.apk' will not be cached, because the device under test has confirmed the support of streamed installs
+2020-09-25 19:07:35:641 [ADB] Running 'C:\Tools\Android_SDK\SDK\platform-tools\adb.exe -P 5037 -s ce0417144bd734ff0c install -r C\://Projects//SGE//PingID.apk'
+2020-09-25 19:07:46:092 [ADB] The installation of 'PingID.apk' took 10451ms
+2020-09-25 19:07:46:092 [ADB] Install command stdout: Performing Streamed Install
+2020-09-25 19:07:46:096 [ADB] Success
+2020-09-25 19:07:46:099 [UiAutomator2] Performing shallow cleanup of automation leftovers
+2020-09-25 19:10:16:457 [UiAutomator2] No obsolete sessions have been detected (Request failed with status code 503)
+2020-09-25 19:10:16:469 [ADB] Running 'C:\Tools\Android_SDK\SDK\platform-tools\adb.exe -P 5037 -s ce0417144bd734ff0c shell am force-stop io.appium.uiautomator2.server.test'
+2020-09-25 19:10:16:819 [UiAutomator2] Starting UIAutomator2 server 4.12.2
+2020-09-25 19:10:16:824 [UiAutomator2] Using UIAutomator2 server from 'C:\Users\tangw\AppData\Roaming\npm\node_modules\appium\node_modules\appium-uiautomator2-server\apks\appium-uiautomator2-server-v4.12.2.apk' and test from 'C:\Users\tangw\AppData\Roaming\npm\node_modules\appium\node_modules\appium-uiautomator2-server\apks\appium-uiautomator2-server-debug-androidTest.apk'
+2020-09-25 19:10:16:825 [UiAutomator2] Waiting up to 120000ms for UiAutomator2 to be online...
+2020-09-25 19:10:16:835 [ADB] Creating ADB subprocess with args: ["-P",5037,"-s","ce0417144bd734ff0c","shell","am","instrument","-w","io.appium.uiautomator2.server.test/androidx.test.runner.AndroidJUnitRunner"]
+2020-09-25 19:10:17:976 [WD Proxy] Matched '/status' to command name 'getStatus'
+2020-09-25 19:10:17:978 [WD Proxy] Proxying [GET /status] to [GET http://127.0.0.1:8200/wd/hub/status] with no body
+2020-09-25 19:10:18:936 [Instrumentation] io.appium.uiautomator2.server.test.AppiumUiAutomator2Server:
+2020-09-25 19:10:19:996 [Instrumentation] Error in startServer(io.appium.uiautomator2.server.test.AppiumUiAutomator2Server):
+2020-09-25 19:10:20:001 [Instrumentation] java.lang.ExceptionInInitializerError
+2020-09-25 19:10:20:009 [Instrumentation] 	at io.appium.uiautomator2.server.mjpeg.MjpegScreenshotServer.<init>(MjpegScreenshotServer.java:41)
+2020-09-25 19:10:20:010 [Instrumentation] 	at io.appium.uiautomator2.server.mjpeg.MjpegScreenshotServer.<init>(MjpegScreenshotServer.java:35)
+2020-09-25 19:10:20:015 [Instrumentation] 	at io.appium.uiautomator2.server.ServerInstrumentation.startMjpegServer(ServerInstrumentation.java:241)
+2020-09-25 19:10:20:023 [Instrumentation] 	at io.appium.uiautomator2.server.test.AppiumUiAutomator2Server.startServer(AppiumUiAutomator2Server.java:31)
+2020-09-25 19:10:20:031 [Instrumentation] 	at java.lang.reflect.Method.invoke(Native Method)
+2020-09-25 19:10:20:032 [Instrumentation] 	at org.junit.runners.model.FrameworkMethod$1.runReflectiveCall(FrameworkMethod.java:50)
+2020-09-25 19:10:20:033 [Instrumentation] 	at org.junit.internal.runners.model.ReflectiveCallable.run(ReflectiveCallable.java:12)
+2020-09-25 19:10:20:035 [Instrumentation] 	at org.junit.runners.model.FrameworkMethod.invokeExplosively(FrameworkMethod.java:47)
+2020-09-25 19:10:20:036 [Instrumentation] 	at org.junit.internal.runners.statements.InvokeMethod.evaluate(InvokeMethod.java:17)
+2020-09-25 19:10:20:038 [Instrumentation] 	at org.junit.runners.ParentRunner.runLeaf(ParentRunner.java:325)
+2020-09-25 19:10:20:039 [Instrumentation] 	at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:78)
+2020-09-25 19:10:20:041 [Instrumentation] 	at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:57)
+2020-09-25 19:10:20:042 [Instrumentation] 	at org.junit.runners.ParentRunner$3.run(ParentRunner.java:290)
+2020-09-25 19:10:20:044 [Instrumentation] 	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:71)
+2020-09-25 19:10:20:045 [Instrumentation] 	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:288)
+2020-09-25 19:10:20:045 [Instrumentation] 	at org.junit.runners.ParentRunner.access$000(ParentRunner.java:58)
+2020-09-25 19:10:20:049 [Instrumentation] 	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:268)
+2020-09-25 19:10:20:053 [Instrumentation] 	at org.junit.runners.ParentRunner.run(ParentRunner.java:363)
+2020-09-25 19:10:20:056 [Instrumentation] 	at androidx.test.runner.AndroidJUnit4.run(AndroidJUnit4.java:104)
+2020-09-25 19:10:20:056 [Instrumentation] 	at org.junit.runners.Suite.runChild(Suite.java:128)
+2020-09-25 19:10:20:058 [Instrumentation] 	at org.junit.runners.Suite.runChild(Suite.java:27)
+2020-09-25 19:10:20:061 [Instrumentation] 	at org.junit.runners.ParentRunner$3.run(ParentRunner.java:290)
+2020-09-25 19:10:20:064 [Instrumentation] 	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:71)
+2020-09-25 19:10:20:066 [Instrumentation] 	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:288)
+2020-09-25 19:10:20:067 [Instrumentation] 	at org.junit.runners.ParentRunner.access$000(ParentRunner.java:58)
+2020-09-25 19:10:20:069 [Instrumentation] 	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:268)
+2020-09-25 19:10:20:070 [Instrumentation] 	at org.junit.runners.ParentRunner.run(ParentRunner.java:363)
+2020-09-25 19:10:20:071 [Instrumentation] 	at org.junit.runner.JUnitCore.run(JUnitCore.java:137)
+2020-09-25 19:10:20:073 [Instrumentation] 	at org.junit.runner.JUnitCore.run(JUnitCore.java:115)
+2020-09-25 19:10:20:074 [Instrumentation] 	at androidx.test.internal.runner.TestExecutor.execute(TestExecutor.java:56)
+2020-09-25 19:10:20:075 [Instrumentation] 	at androidx.test.runner.AndroidJUnitRunner.onStart(AndroidJUnitRunner.java:392)
+2020-09-25 19:10:20:075 [Instrumentation] 	at android.app.Instrumentation$InstrumentationThread.run(Instrumentation.java:2156)
+2020-09-25 19:10:20:077 [Instrumentation] Caused by: java.lang.IllegalStateException: UiAutomationService android.accessibilityservice.IAccessibilityServiceClient$Stub$Proxy@1a820c4already registered!
+2020-09-25 19:10:20:083 [Instrumentation] 	at android.os.Parcel.createException(Parcel.java:1974)
+2020-09-25 19:10:20:084 [Instrumentation] 	at android.os.Parcel.readException(Parcel.java:1934)
+2020-09-25 19:10:20:085 [Instrumentation] 	at android.os.Parcel.readException(Parcel.java:1884)
+2020-09-25 19:10:20:086 [Instrumentation] 	at android.app.IUiAutomationConnection$Stub$Proxy.connect(IUiAutomationConnection.java:255)
+2020-09-25 19:10:20:087 [Instrumentation] 	at android.app.UiAutomation.connect(UiAutomation.java:234)
+2020-09-25 19:10:20:088 [Instrumentation] 	at android.app.Instrumentation.getUiAutomation(Instrumentation.java:2127)
+2020-09-25 19:10:20:089 [Instrumentation] 	at androidx.test.uiautomator.UiDevice.getUiAutomation(UiDevice.java:1129)
+2020-09-25 19:10:20:091 [Instrumentation] 	at androidx.test.uiautomator.QueryController.<init>(QueryController.java:95)
+2020-09-25 19:10:20:092 [Instrumentation] 	at androidx.test.uiautomator.UiDevice.<init>(UiDevice.java:109)
+2020-09-25 19:10:20:094 [Instrumentation] 	at androidx.test.uiautomator.UiDevice.getInstance(UiDevice.java:261)
+2020-09-25 19:10:20:094 [Instrumentation] 	at io.appium.uiautomator2.utils.Device.getUiDevice(Device.java:40)
+2020-09-25 19:10:20:095 [Instrumentation] 	at io.appium.uiautomator2.model.internal.CustomUiDevice.<init>(CustomUiDevice.java:75)
+2020-09-25 19:10:20:096 [Instrumentation] 	at io.appium.uiautomator2.model.internal.CustomUiDevice.getInstance(CustomUiDevice.java:90)
+2020-09-25 19:10:20:098 [Instrumentation] 	at io.appium.uiautomator2.server.mjpeg.MjpegScreenshotStream.<clinit>(MjpegScreenshotStream.java:43)
+2020-09-25 19:10:20:099 [Instrumentation] 	... 32 more
+2020-09-25 19:10:20:769 [Instrumentation] INSTRUMENTATION_RESULT: shortMsg=Process crashed.
+2020-09-25 19:10:20:770 [Instrumentation] INSTRUMENTATION_CODE: 0
+2020-09-25 19:10:20:871 [Instrumentation] The process has exited with code 0
+2020-09-25 19:10:22:795 [HTTP] <-- POST /wd/hub/session - - ms - -
+2020-09-25 19:10:22:795 [HTTP] 
+2020-09-25 19:12:48:252 [WD Proxy] Got response with status 503: <HTML><HEAD>
+2020-09-25 19:12:48:253 [WD Proxy] <TITLE>Network Error</TITLE>
+2020-09-25 19:12:48:256 [WD Proxy] </HEAD>
+2020-09-25 19:12:48:257 [WD Proxy] <BODY>
+2020-09-25 19:12:48:258 [WD Proxy] <FONT face="Helvetica">
+2020-09-25 19:12:48:259 [WD Proxy] <big><strong></strong></big><BR>
+2020-09-25 19:12:48:265 [WD Proxy] </FONT>
+2020-09-25 19:12:48:266 [WD Proxy] <blockquote>
+2020-09-25 19:12:48:270 [WD Proxy] <TABLE border=0 cellPadding=1 width="80%">
+2020-09-25 19:12:48:270 [WD Proxy] <TR><TD>
+2020-09-25 19:12:48:270 [WD Proxy] <FONT face="Helvetica">
+2020-09-25 19:12:48:271 [WD Proxy] <big>Network Error (tcp_error)</big>
+2020-09-25 19:12:48:271 [WD Proxy] <BR>
+2020-09-25 19:12:48:272 [WD Proxy] <BR>
+2020-09-25 19:12:48:272 [WD Proxy] </FONT>
+2020-09-25 19:12:48:274 [WD Proxy] </TD></TR>
+2020-09-25 19:12:48:276 [WD Proxy] <TR><TD>
+2020-09-25 19:12:48:277 [WD Proxy] <FONT face="Helvetica">
+2020-09-25 19:12:48:278 [WD Proxy] A communication error occurred: ""
+2020-09-25 19:12:48:278 [WD Proxy] </FONT>
+2020-09-25 19:12:48:278 [WD Proxy] </TD></TR>
+2020-09-25 19:12:48:279 [WD Proxy] <TR><TD>
+2020-09-25 19:12:48:279 [WD Proxy] <FONT face="Helvetica">
+2020-09-25 19:12:48:280 [WD Proxy] The Web Server may be down, too busy, or experiencing other problems preventing it from responding to requests. You may wish to try again at a later time.
+2020-09-25 19:12:48:281 [WD Proxy] </FONT>
+2020-09-25 19:12:48:282 [WD Proxy] </TD></TR>
+2020-09-25 19:12:48:283 [WD Proxy] <TR><TD>
+2020-09-25 19:12:48:284 [WD Proxy] <FONT face="Helvetica" SIZE=2>
+2020-09-25 19:12:48:284 [WD Proxy] <BR>
+2020-09-25 19:12:48:284 [WD Proxy] <p>For assistance , please contact IT Service Desk:
+2020-09-25 19:12:48:286 [WD Proxy] <br>
+2020-09-25 19:12:48:287 [WD Proxy] <br>
+2020-09-25 19:12:48:290 [WD Proxy] <br><br>Your request was categorized by Blue Coat Web Filter as 'none'. <br>If you wish to question or...
+2020-09-25 19:12:48:292 [UiAutomator2] The instrumentation process has been unexpectedly terminated. Retrying UiAutomator2 startup (#1 of 1)
+2020-09-25 19:12:48:292 [UiAutomator2] Performing strict cleanup of automation leftovers
+2020-09-25 19:15:18:570 [UiAutomator2] No obsolete sessions have been detected (Request failed with status code 503)
+2020-09-25 19:15:18:571 [ADB] Running 'C:\Tools\Android_SDK\SDK\platform-tools\adb.exe -P 5037 -s ce0417144bd734ff0c shell am force-stop io.appium.uiautomator2.server.test'
+2020-09-25 19:15:18:923 [ADB] Attempting to kill all uiautomator processes
+2020-09-25 19:15:18:924 [ADB] Getting IDs of all 'uiautomator' processes
+2020-09-25 19:15:18:925 [ADB] Running 'C:\Tools\Android_SDK\SDK\platform-tools\adb.exe -P 5037 -s ce0417144bd734ff0c shell pgrep -f uiautomator'
+2020-09-25 19:15:19:332 [ADB] No 'uiautomator' process has been found
+2020-09-25 19:15:22:334 [UiAutomator2] Waiting up to 120000ms for UiAutomator2 to be online...
+2020-09-25 19:15:22:336 [ADB] Creating ADB subprocess with args: ["-P",5037,"-s","ce0417144bd734ff0c","shell","am","instrument","-w","io.appium.uiautomator2.server.test/androidx.test.runner.AndroidJUnitRunner"]
+2020-09-25 19:15:23:470 [WD Proxy] Matched '/status' to command name 'getStatus'
+2020-09-25 19:15:23:471 [WD Proxy] Proxying [GET /status] to [GET http://127.0.0.1:8200/wd/hub/status] with no body
+2020-09-25 19:15:24:372 [Instrumentation] io.appium.uiautomator2.server.test.AppiumUiAutomator2Server:
+2020-09-25 19:15:25:426 [Instrumentation] Error in startServer(io.appium.uiautomator2.server.test.AppiumUiAutomator2Server):
+2020-09-25 19:15:25:427 [Instrumentation] java.lang.ExceptionInInitializerError
+2020-09-25 19:15:25:427 [Instrumentation] 	at io.appium.uiautomator2.server.mjpeg.MjpegScreenshotServer.<init>(MjpegScreenshotServer.java:41)
+2020-09-25 19:15:25:428 [Instrumentation] 	at io.appium.uiautomator2.server.mjpeg.MjpegScreenshotServer.<init>(MjpegScreenshotServer.java:35)
+2020-09-25 19:15:25:429 [Instrumentation] 	at io.appium.uiautomator2.server.ServerInstrumentation.startMjpegServer(ServerInstrumentation.java:241)
+2020-09-25 19:15:25:429 [Instrumentation] 	at io.appium.uiautomator2.server.test.AppiumUiAutomator2Server.startServer(AppiumUiAutomator2Server.java:31)
+2020-09-25 19:15:25:430 [Instrumentation] 	at java.lang.reflect.Method.invoke(Native Method)
+2020-09-25 19:15:25:431 [Instrumentation] 	at org.junit.runners.model.FrameworkMethod$1.runReflectiveCall(FrameworkMethod.java:50)
+2020-09-25 19:15:25:431 [Instrumentation] 	at org.junit.internal.runners.model.ReflectiveCallable.run(ReflectiveCallable.java:12)
+2020-09-25 19:15:25:432 [Instrumentation] 	at org.junit.runners.model.FrameworkMethod.invokeExplosively(FrameworkMethod.java:47)
+2020-09-25 19:15:25:433 [Instrumentation] 	at org.junit.internal.runners.statements.InvokeMethod.evaluate(InvokeMethod.java:17)
+2020-09-25 19:15:25:434 [Instrumentation] 	at org.junit.runners.ParentRunner.runLeaf(ParentRunner.java:325)
+2020-09-25 19:15:25:435 [Instrumentation] 	at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:78)
+2020-09-25 19:15:25:437 [Instrumentation] 	at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:57)
+2020-09-25 19:15:25:438 [Instrumentation] 	at org.junit.runners.ParentRunner$3.run(ParentRunner.java:290)
+2020-09-25 19:15:25:439 [Instrumentation] 	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:71)
+2020-09-25 19:15:25:439 [Instrumentation] 	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:288)
+2020-09-25 19:15:25:441 [Instrumentation] 	at org.junit.runners.ParentRunner.access$000(ParentRunner.java:58)
+2020-09-25 19:15:25:441 [Instrumentation] 	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:268)
+2020-09-25 19:15:25:442 [Instrumentation] 	at org.junit.runners.ParentRunner.run(ParentRunner.java:363)
+2020-09-25 19:15:25:443 [Instrumentation] 	at androidx.test.runner.AndroidJUnit4.run(AndroidJUnit4.java:104)
+2020-09-25 19:15:25:443 [Instrumentation] 	at org.junit.runners.Suite.runChild(Suite.java:128)
+2020-09-25 19:15:25:444 [Instrumentation] 	at org.junit.runners.Suite.runChild(Suite.java:27)
+2020-09-25 19:15:25:445 [Instrumentation] 	at org.junit.runners.ParentRunner$3.run(ParentRunner.java:290)
+2020-09-25 19:15:25:446 [Instrumentation] 	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:71)
+2020-09-25 19:15:25:448 [Instrumentation] 	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:288)
+2020-09-25 19:15:25:449 [Instrumentation] 	at org.junit.runners.ParentRunner.access$000(ParentRunner.java:58)
+2020-09-25 19:15:25:449 [Instrumentation] 	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:268)
+2020-09-25 19:15:25:450 [Instrumentation] 	at org.junit.runners.ParentRunner.run(ParentRunner.java:363)
+2020-09-25 19:15:25:450 [Instrumentation] 	at org.junit.runner.JUnitCore.run(JUnitCore.java:137)
+2020-09-25 19:15:25:451 [Instrumentation] 	at org.junit.runner.JUnitCore.run(JUnitCore.java:115)
+2020-09-25 19:15:25:451 [Instrumentation] 	at androidx.test.internal.runner.TestExecutor.execute(TestExecutor.java:56)
+2020-09-25 19:15:25:452 [Instrumentation] 	at androidx.test.runner.AndroidJUnitRunner.onStart(AndroidJUnitRunner.java:392)
+2020-09-25 19:15:25:453 [Instrumentation] 	at android.app.Instrumentation$InstrumentationThread.run(Instrumentation.java:2156)
+2020-09-25 19:15:25:453 [Instrumentation] Caused by: java.lang.IllegalStateException: UiAutomationService android.accessibilityservice.IAccessibilityServiceClient$Stub$Proxy@108f3c8already registered!
+2020-09-25 19:15:25:454 [Instrumentation] 	at android.os.Parcel.createException(Parcel.java:1974)
+2020-09-25 19:15:25:454 [Instrumentation] 	at android.os.Parcel.readException(Parcel.java:1934)
+2020-09-25 19:15:25:455 [Instrumentation] 	at android.os.Parcel.readException(Parcel.java:1884)
+2020-09-25 19:15:25:456 [Instrumentation] 	at android.app.IUiAutomationConnection$Stub$Proxy.connect(IUiAutomationConnection.java:255)
+2020-09-25 19:15:25:460 [Instrumentation] 	at android.app.UiAutomation.connect(UiAutomation.java:234)
+2020-09-25 19:15:25:461 [Instrumentation] 	at android.app.Instrumentation.getUiAutomation(Instrumentation.java:2127)
+2020-09-25 19:15:25:462 [Instrumentation] 	at androidx.test.uiautomator.UiDevice.getUiAutomation(UiDevice.java:1129)
+2020-09-25 19:15:25:463 [Instrumentation] 	at androidx.test.uiautomator.QueryController.<init>(QueryController.java:95)
+2020-09-25 19:15:25:464 [Instrumentation] 	at androidx.test.uiautomator.UiDevice.<init>(UiDevice.java:109)
+2020-09-25 19:15:25:465 [Instrumentation] 	at androidx.test.uiautomator.UiDevice.getInstance(UiDevice.java:261)
+2020-09-25 19:15:25:466 [Instrumentation] 	at io.appium.uiautomator2.utils.Device.getUiDevice(Device.java:40)
+2020-09-25 19:15:25:466 [Instrumentation] 	at io.appium.uiautomator2.model.internal.CustomUiDevice.<init>(CustomUiDevice.java:75)
+2020-09-25 19:15:25:467 [Instrumentation] 	at io.appium.uiautomator2.model.internal.CustomUiDevice.getInstance(CustomUiDevice.java:90)
+2020-09-25 19:15:25:468 [Instrumentation] 	at io.appium.uiautomator2.server.mjpeg.MjpegScreenshotStream.<clinit>(MjpegScreenshotStream.java:43)
+2020-09-25 19:15:25:468 [Instrumentation] 	... 32 more
+2020-09-25 19:15:26:137 [Instrumentation] INSTRUMENTATION_RESULT: shortMsg=Process crashed.
+2020-09-25 19:15:26:137 [Instrumentation] INSTRUMENTATION_CODE: 0
+2020-09-25 19:15:26:236 [Instrumentation] The process has exited with code 0
+2020-09-25 19:17:53:832 [WD Proxy] Got response with status 503: <HTML><HEAD>
+2020-09-25 19:17:53:833 [WD Proxy] <TITLE>Network Error</TITLE>
+2020-09-25 19:17:53:834 [WD Proxy] </HEAD>
+2020-09-25 19:17:53:834 [WD Proxy] <BODY>
+2020-09-25 19:17:53:835 [WD Proxy] <FONT face="Helvetica">
+2020-09-25 19:17:53:835 [WD Proxy] <big><strong></strong></big><BR>
+2020-09-25 19:17:53:836 [WD Proxy] </FONT>
+2020-09-25 19:17:53:836 [WD Proxy] <blockquote>
+2020-09-25 19:17:53:837 [WD Proxy] <TABLE border=0 cellPadding=1 width="80%">
+2020-09-25 19:17:53:837 [WD Proxy] <TR><TD>
+2020-09-25 19:17:53:838 [WD Proxy] <FONT face="Helvetica">
+2020-09-25 19:17:53:838 [WD Proxy] <big>Network Error (tcp_error)</big>
+2020-09-25 19:17:53:839 [WD Proxy] <BR>
+2020-09-25 19:17:53:840 [WD Proxy] <BR>
+2020-09-25 19:17:53:841 [WD Proxy] </FONT>
+2020-09-25 19:17:53:845 [WD Proxy] </TD></TR>
+2020-09-25 19:17:53:846 [WD Proxy] <TR><TD>
+2020-09-25 19:17:53:846 [WD Proxy] <FONT face="Helvetica">
+2020-09-25 19:17:53:847 [WD Proxy] A communication error occurred: ""
+2020-09-25 19:17:53:847 [WD Proxy] </FONT>
+2020-09-25 19:17:53:848 [WD Proxy] </TD></TR>
+2020-09-25 19:17:53:848 [WD Proxy] <TR><TD>
+2020-09-25 19:17:53:849 [WD Proxy] <FONT face="Helvetica">
+2020-09-25 19:17:53:849 [WD Proxy] The Web Server may be down, too busy, or experiencing other problems preventing it from responding to requests. You may wish to try again at a later time.
+2020-09-25 19:17:53:849 [WD Proxy] </FONT>
+2020-09-25 19:17:53:850 [WD Proxy] </TD></TR>
+2020-09-25 19:17:53:850 [WD Proxy] <TR><TD>
+2020-09-25 19:17:53:851 [WD Proxy] <FONT face="Helvetica" SIZE=2>
+2020-09-25 19:17:53:851 [WD Proxy] <BR>
+2020-09-25 19:17:53:852 [WD Proxy] <p>For assistance , please contact IT Service Desk:
+2020-09-25 19:17:53:852 [WD Proxy] <br>
+2020-09-25 19:17:53:852 [WD Proxy] <br>
+2020-09-25 19:17:53:861 [WD Proxy] <br><br>Your request was categorized by Blue Coat Web Filter as 'none'. <br>If you wish to question or...
+2020-09-25 19:17:53:863 [UiAutomator2] The instrumentation process cannot be initialized. Make sure the application under test does not crash and investigate the logcat output.
+2020-09-25 19:17:53:866 [UiAutomator2] Deleting UiAutomator2 session
+2020-09-25 19:17:53:867 [UiAutomator2] Deleting UiAutomator2 server session
+2020-09-25 19:17:53:868 [WD Proxy] Matched '/' to command name 'deleteSession'
+2020-09-25 19:17:53:869 [UiAutomator2] Did not get confirmation UiAutomator2 deleteSession worked; Error was: UnknownError: An unknown server-side error occurred while processing the command. Original error: Trying to proxy a session command without session id
+2020-09-25 19:17:53:870 [ADB] Running 'C:\Tools\Android_SDK\SDK\platform-tools\adb.exe -P 5037 -s ce0417144bd734ff0c shell am force-stop prod.com.pingidentity.pingid'
+2020-09-25 19:17:54:256 [UiAutomator2] Capability 'fullReset' set to 'true', Uninstalling 'prod.com.pingidentity.pingid'
+2020-09-25 19:17:54:257 [ADB] Uninstalling prod.com.pingidentity.pingid
+2020-09-25 19:17:54:258 [ADB] Getting install status for prod.com.pingidentity.pingid
+2020-09-25 19:17:54:259 [ADB] Running 'C:\Tools\Android_SDK\SDK\platform-tools\adb.exe -P 5037 -s ce0417144bd734ff0c shell dumpsys package prod.com.pingidentity.pingid'
+2020-09-25 19:17:54:569 [ADB] 'prod.com.pingidentity.pingid' is installed
+2020-09-25 19:17:54:570 [ADB] Running 'C:\Tools\Android_SDK\SDK\platform-tools\adb.exe -P 5037 -s ce0417144bd734ff0c shell am force-stop prod.com.pingidentity.pingid'
+2020-09-25 19:17:54:933 [ADB] Running 'C:\Tools\Android_SDK\SDK\platform-tools\adb.exe -P 5037 -s ce0417144bd734ff0c uninstall prod.com.pingidentity.pingid'
+2020-09-25 19:17:55:920 [ADB] 'adb uninstall prod.com.pingidentity.pingid' command output: Success
+2020-09-25 19:17:55:921 [ADB] prod.com.pingidentity.pingid was successfully uninstalled
+2020-09-25 19:17:55:923 [Logcat] Stopping logcat capture
+2020-09-25 19:17:55:936 [ADB] Removing forwarded port socket connection: 8200 
+2020-09-25 19:17:55:936 [ADB] Running 'C:\Tools\Android_SDK\SDK\platform-tools\adb.exe -P 5037 -s ce0417144bd734ff0c forward --remove tcp\:8200'
+2020-09-25 19:17:56:155 [UiAutomator2] Restoring hidden api policy to the device default configuration
+2020-09-25 19:17:56:157 [ADB] Running 'C:\Tools\Android_SDK\SDK\platform-tools\adb.exe -P 5037 -s ce0417144bd734ff0c shell 'settings delete global hidden_api_policy_pre_p_apps;settings delete global hidden_api_policy_p_apps;settings delete global hidden_api_policy''
+2020-09-25 19:17:56:809 [BaseDriver] Event 'newSessionStarted' logged at 1601025476806 (19:17:56 GMT+1000 (Australian Eastern Standard Time))
+2020-09-25 19:17:56:829 [W3C] Encountered internal error running command: Error: The instrumentation process cannot be initialized. Make sure the application under test does not crash and investigate the logcat output.
+2020-09-25 19:17:56:831 [W3C]     at Object.errorAndThrow (C:\Users\tangw\AppData\Roaming\npm\node_modules\appium\node_modules\appium-support\lib\logging.js:94:35)
+2020-09-25 19:17:56:832 [W3C]     at UiAutomator2Server.startSession (C:\Users\tangw\AppData\Roaming\npm\node_modules\appium\node_modules\appium-uiautomator2-driver\lib\uiautomator2.js:233:13)
+2020-09-25 19:17:56:832 [W3C]     at process._tickCallback (internal/process/next_tick.js:68:7)
+2020-09-25 19:17:56:896 [W3C] Destroying socket connection
